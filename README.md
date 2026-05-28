@@ -6,7 +6,9 @@
 [![Node.js](https://img.shields.io/badge/Node.js-v18%2B-green)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev/)
 [![Powered by Groq](https://img.shields.io/badge/Powered%20by-Groq-orange)](https://groq.com/)
-[![AWS](https://img.shields.io/badge/Deployed%20on-AWS-232F3E)](https://aws.amazon.com/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-232F3E)](http://repoforge-frontend-abhinav.s3-website.ap-south-1.amazonaws.com)
+
+🌐 **Live Demo**: [repoforge-frontend-abhinav.s3-website.ap-south-1.amazonaws.com](http://repoforge-frontend-abhinav.s3-website.ap-south-1.amazonaws.com)
 
 **Author**: [Abhinav Walde](https://github.com/abhinavwalde204)
 
@@ -67,17 +69,25 @@ Onboarding into an unfamiliar codebase is expensive. You spend hours tracing imp
 ```
 RepoForge/
 ├── repoforge-frontend/         # React frontend
+│   ├── public/                 # Static assets (favicon, icons)
 │   └── src/
-│       ├── components/         # UI components
-│       ├── store/              # Zustand state
+│       ├── assets/             # Images and media
+│       ├── components/         # Reusable UI components
+│       ├── pages/              # Page-level components
+│       ├── services/           # API call abstractions
+│       ├── store/              # Zustand global state
 │       ├── utils/              # Helper functions
-│       └── App.jsx
+│       ├── App.jsx
+│       └── main.jsx
 ├── repoforge-api/              # Express backend
-│   ├── routes/                 # API route handlers
-│   ├── workers/                # Bull queue workers
-│   ├── services/               # RAG pipeline, embeddings, graph logic
-│   ├── db/                     # PostgreSQL connection and queries
-│   └── index.js                # Server entry point
+│   └── src/
+│       ├── controllers/        # Route handler logic
+│       ├── db/                 # PostgreSQL connection and queries
+│       ├── middleware/         # Auth and request middleware
+│       ├── routes/             # API route definitions
+│       ├── services/           # RAG pipeline, embeddings, graph logic
+│       ├── workers/            # Bull queue workers
+│       └── index.js            # Server entry point
 └── README.md
 ```
 
@@ -202,9 +212,9 @@ MIT License — feel free to use, modify, and distribute.
 
 ## 👤 Author
 
-**Your Name**
+**Abhinav Walde**
 
-[GitHub](https://github.com/yourusername)
+[GitHub](https://github.com/abhinavwalde204)
 
 ---
 
