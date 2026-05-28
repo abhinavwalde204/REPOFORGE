@@ -22,7 +22,24 @@ Onboarding into an unfamiliar codebase is expensive. You spend hours tracing imp
 
 ## 📷 Screenshots
 
-<!-- Add your screenshots here -->
+### RepoForge Homepage 
+ <img width="1908" height="870" alt="Screenshot 2026-05-28 183955" src="https://github.com/user-attachments/assets/700f8570-8a4e-42ff-89dd-f6f59ce06821" />
+
+### Dependency Graph with Repo Score and Architecture Radar
+ <img width="1910" height="873" alt="Screenshot 2026-05-28 175758" src="https://github.com/user-attachments/assets/052dae56-8b01-4505-b019-58b8a689805f" />
+
+### PR Impact Analysis — Blast radius and downstream dependents for modified files
+ <img width="1897" height="830" alt="Screenshot 2026-05-28 180337" src="https://github.com/user-attachments/assets/7baa7fa0-4bc3-4d10-9b93-34345122cf68" />
+
+### Repo Score Quality Breakdown — Documentation, Security, Complexity and more
+ <img width="486" height="721" alt="Screenshot 2026-05-28 180801" src="https://github.com/user-attachments/assets/7e3da22c-d1c4-4f19-9d81-a9bdc57116bc" />
+
+### Suggested Fixes Panel with codebase health metrics
+ <img width="470" height="696" alt="Screenshot 2026-05-28 180842" src="https://github.com/user-attachments/assets/fd9fbdde-f3cd-4b6b-8040-4260a19b957b" />
+
+### Code Analyzer — Browse files with syntax highlighting and AI-powered chat assistant
+ <img width="1919" height="867" alt="Screenshot 2026-05-28 180525" src="https://github.com/user-attachments/assets/02c0ac15-a544-469a-8330-19c44e575dfc" />
+
 
 ---
 
