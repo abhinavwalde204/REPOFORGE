@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment Variables (CRITICAL: Never push your .env files!)
+.env
+.env.local
+.env.development
+.env.production
+
+# Build Outputs
+repoforge-frontend/dist/
+repoforge-frontend/build/
+repoforge-api/dist/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+
+# IDE and Editor Folders
+.idea/
+.vscode/
+*.swp
+*.swo
